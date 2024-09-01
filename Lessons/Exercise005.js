@@ -32,5 +32,6 @@ for(var i=0;i<userProfile.orders.length;i++){
     var orderTotal=order.quantity*order.price;
     totalCost+=orderTotal;
     console.log("itemName: "+order.item+" , Quantity: "+order.quantity+" , Price: "+order.price+" , Total Cost: "+totalCost);
+    //console.log(`itemName: ${order.item}, Quantity: ${order.quantity}, Price: ${order.price}, Total Cost: ${totalCost}`)
 }
 console.log("Total Amount Spent: "+totalCost);
