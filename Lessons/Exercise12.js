@@ -27,6 +27,6 @@ var books=[
 let isBook1GreaterThanBook2 = books[0].Price>books[1].Price
 let isBook2CheaperThanBook3 = books[1].Price>books[2].Price
 console.log("Is 'The Great Gatsby' book is more expensive than '1984'? " +isBook1GreaterThanBook2)
-console.log(`Is 1984 cheaper than To kill a Mockingbird ${isBook2CheaperThanBook3}`)
+console.log(`Is '1984' cheaper than 'To kill a Mockingbird?' ${isBook2CheaperThanBook3}`)
 
 
